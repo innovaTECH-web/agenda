@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+label, input, button {
+  margin: 10px;
+}
+
+button {
+  align-self: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  margin-right: 10px;
+}
